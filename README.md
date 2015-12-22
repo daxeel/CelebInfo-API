@@ -19,5 +19,11 @@ CelebInfo is a simple API which will give you access to the information like bir
 API Request syntax : <br>
 https://birthdays-daxeel.rhcloud.com/api/date/{DATE}/{MONTH_IN_WORDS}
 <br>where,<br>
-DATE and MONTH_IN_WORDS is a day and API will give you the data of all celebrities having birthday on this specified date and month.
+DATE and MONTH_IN_WORDS is a day and API will give you the data of all celebrities having birthday on this specified date and month.<br>
 For example : <br><a href="https://birthdays-daxeel.rhcloud.com/api/date/28/september">https://birthdays-daxeel.rhcloud.com/api/date/28/september</a>
+<br><br>
+<h3>Custom Search</h3>
+API Request syntax : <br>
+http://birthdays-daxeel.rhcloud.com/api/custom/{SEARCH_TYPE}
+<br>where,<br>
+SEARCH_TYPE can be <br><br>
