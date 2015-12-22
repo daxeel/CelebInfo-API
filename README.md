@@ -25,22 +25,18 @@ For example : <br><a href="https://birthdays-daxeel.rhcloud.com/api/date/28/sept
 <table style="border:1px solid #FE7B09;padding:20px;">
 	<tr>
 		<td><b>yesterday</b></td>
-		<td> : </td>
 		<td>Returns info of celebrities having birthdays yesterday</td>
 	</tr>
 	<tr>
 		<td><b>today</b></td>
-		<td> : </td>
 		<td>Returns info of celebrities having birthdays today</td>
 	</tr>
 	<tr>
 		<td><b>tomorrow</b></td>
-		<td> : </td>
 		<td>Returns info of celebrities having birthdays to tomorrow</td>
 	</tr>
 	<tr>
 		<td><b>tdat</b></td>
-		<td> : </td>
 		<td>Returns info of celebrities having birthdays the after tomorrow</td>
 	</tr>
 </table>
@@ -49,3 +45,5 @@ API Request syntax : <br>
 http://birthdays-daxeel.rhcloud.com/api/custom/{SEARCH_TYPE}
 <br>where,<br>
 SEARCH_TYPE can be <br><br>
+<br>
+For example : <br><a href="http://birthdays-daxeel.rhcloud.com/api/custom/today">http://birthdays-daxeel.rhcloud.com/api/custom/today</a>
