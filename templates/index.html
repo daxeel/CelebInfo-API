@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CelebInfo API by Daxeel Soni</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="static/css/style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+
+<div id="header">
+<h1><a href="#">CelebInfo API</a></h1>
+<h2>Unofficial API of famousbirthdays.com</h2>
+</div>
+
+<div id="right">
+
+<h2 id="about"><a href="#">About</a></h2>
+<div class="articles">
+	CelebInfo is a simple API which will give you access to the information like birthdays etc. With this API you will get these data of celebrities.<br><br>
+	<ul>
+	    <li class="info">Name</li>
+	    <li class="info">Age</li>
+	    <li class="info">Birthday</li>
+	    <li class="info">Birth Year</li>
+	    <li class="info">Birth Place</li>
+	    <li class="info">Birth Sign</li>
+	    <li class="info">Occupation</li>
+	    <li class="info">Photo</li>
+	</ul>
+</div>
+
+<h2 id="howto"><a href="#">Documentation</a></h2>
+
+<div class="articles">
+	<h3>Search By Birthday</h3>
+	API Request syntax : <br>
+	https://birthdays-daxeel.rhcloud.com/api/date/{DATE}/{MONTH_IN_WORDS}
+	<br>where,<br>
+	DATE and MONTH_IN_WORDS is a day and API will give you the data of all celebrities having birthday on this specified date and month.
+	<br>
+	For example : <br><a href="https://birthdays-daxeel.rhcloud.com/api/date/28/september">https://birthdays-daxeel.rhcloud.com/api/date/28/september</a>
+	<br><br>
+	<h3>Custom Search</h3>
+	API Request syntax : <br>
+	http://birthdays-daxeel.rhcloud.com/api/custom/{SEARCH_TYPE}
+	<br>where,<br>
+	SEARCH_TYPE can be <br><br>
+	<table style="border:1px solid #FE7B09;padding:20px;">
+		<tr>
+			<td><b>yesterday</b></td>
+			<td> : </td>
+			<td>Returns info of celebrities having birthdays yesterday</td>
+		</tr>
+		<tr>
+			<td><b>today</b></td>
+			<td> : </td>
+			<td>Returns info of celebrities having birthdays today</td>
+		</tr>
+		<tr>
+			<td><b>tomorrow</b></td>
+			<td> : </td>
+			<td>Returns info of celebrities having birthdays to tomorrow</td>
+		</tr>
+		<tr>
+			<td><b>tdat</b></td>
+			<td> : </td>
+			<td>Returns info of celebrities having birthdays the after tomorrow</td>
+		</tr>
+	</table>
+	<br>
+	For example : <br><a href="http://birthdays-daxeel.rhcloud.com/api/custom/today">http://birthdays-daxeel.rhcloud.com/api/custom/today</a>
+	<br><br>
+</div>
+
+<!-- <h2 id="howto"><a href="#">Using API with Python</a></h2>
+<div class="articles">
+	I have wrote simple blog post on how to use Fullforms API with python programming Language. <br>
+	You can check it out here : <a href="http://blog.daxeelsoni.in/2015/09/10/working-with-fullforms-api-using-python/" target="_blank">Click Here</a>
+</div> -->
+</div>
+
+<div id="left"> 
+
+<h3>Menu :</h3>
+<ul>
+<li><a href="https://github.com/daxeel" target="_blank">Github</a></li> 
+<li><a href="http://daxeelsoni.in" target="_blank">Daxeel Soni</a></li>
+</ul>
+
+</div>
+<div style="clear: both;"> </div>
+
+<div id="footer">
+Developed by <a href="http://www.daxeelsoni.in/" target="_blank">Daxeel Soni</a>
+</div>
+</div>
+
+
+</body>
+</html>
