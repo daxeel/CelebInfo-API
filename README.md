@@ -22,6 +22,11 @@ https://birthdays-daxeel.rhcloud.com/api/date/{DATE}/{MONTH_IN_WORDS}
 DATE and MONTH_IN_WORDS is a day and API will give you the data of all celebrities having birthday on this specified date and month.<br>
 For example : <br><a href="https://birthdays-daxeel.rhcloud.com/api/date/28/september">https://birthdays-daxeel.rhcloud.com/api/date/28/september</a>
 <br><br>
+<h3>Custom Search</h3>
+API Request syntax : <br>
+http://birthdays-daxeel.rhcloud.com/api/custom/{SEARCH_TYPE}
+<br>where,<br>
+SEARCH_TYPE can be <br><br>
 <table style="border:1px solid #FE7B09;padding:20px;">
 	<tr>
 		<td><b>yesterday</b></td>
@@ -40,10 +45,5 @@ For example : <br><a href="https://birthdays-daxeel.rhcloud.com/api/date/28/sept
 		<td>Returns info of celebrities having birthdays the after tomorrow</td>
 	</tr>
 </table>
-<h3>Custom Search</h3>
-API Request syntax : <br>
-http://birthdays-daxeel.rhcloud.com/api/custom/{SEARCH_TYPE}
-<br>where,<br>
-SEARCH_TYPE can be <br><br>
 <br>
 For example : <br><a href="http://birthdays-daxeel.rhcloud.com/api/custom/today">http://birthdays-daxeel.rhcloud.com/api/custom/today</a>
